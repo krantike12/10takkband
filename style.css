@@ -1,0 +1,299 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Source+Sans+Pro:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+body{
+    background: black;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0;
+    
+}
+@media screen and (max-width: 375px) {
+    h3.nav-text {
+      margin-left: 140%;
+    }
+
+    .navbar-container{
+        position: fixed;
+    }
+
+    #h3-text{
+        margin-top: 235px;
+        margin-left: 23px;
+    }
+
+   
+    #nav-item{
+        flex-direction: column;
+        margin-top: 84px;
+    }
+
+    #video-edit{
+        margin-top: 40px;
+        
+    }
+  }
+
+
+  #video-edit{
+      margin-left: -80px;
+      
+  }
+
+  #nav-item{
+      font-size: 1.10rem;
+      list-style-type: none;
+      color: white;
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 34px;
+      margin-left: 36px;
+      font-family: 'Major Mono Display', monospace;
+  }
+
+  #nav-item-list{
+      margin-top: 3px;
+  }
+
+  a{
+      text-decoration: none;
+  }
+  .navbar-container{
+      height: 100px;
+      padding: 20px;
+      background: black;
+  }
+  .nav-style{
+background: pink;
+  }
+  
+.nav-text{
+     font-family: 'Major Mono Display', monospace;
+     color: white;
+     margin-left: 30px;
+}
+.navbar{
+    background: black;
+}
+.navbar-nav{
+display: inline;
+
+}
+
+#nav-txt{
+    font-family: 'Courier New', Courier, monospace;
+    float: inline-end;
+    padding: 20px;
+    color: white;
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5px;
+    text-transform: uppercase;
+}
+
+
+ a:hover{
+    color: rgb(94, 23, 23);
+
+}
+
+#cont-text{
+    margin-top: 0px;
+color: white;
+}
+
+#h3-text{
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Rock 3D', cursive;
+}
+#h3-text-sec{
+    margin-top: 80px;
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Rock 3D', cursive;
+}
+
+#music-img:hover{
+    opacity: 0.7;
+  flex-shrink: 10px;
+  
+}
+
+#music-txt{
+    display: none;
+  margin-top: -18px;
+    color: rgb(255, 255, 255);
+}
+
+.btn-container{
+    margin-left: 100px;
+    margin-top: 11px;
+}
+
+.btn{
+    font-family: 'Licorice', cursive;
+    font-size: 24px;
+   
+}
+.btn:hover{
+    transform: translate(2deg);
+}
+#iframe1{
+    margin-left: 100px;
+}
+h3#info{
+    font-size: 28px;
+}
+#info{
+    font-size: 18px;
+    font-weight: 700;
+font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(85, 0, 0);
+}
+
+.youtube-container{
+    margin-top: 40px;
+}
+
+#footer-txt{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    padding: 35px;
+    margin-top: 10px;
+}
+
+svg{
+    margin-left: 50%;
+    margin-bottom: -66px;
+}
+.card::before{
+    transform: rotate(-3deg);
+}
+.card:hover {
+  transform: rotate(1deg);
+}
+
+.card-title {
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+        color: rgb(85, 0, 0); 
+}
+
+.card-text{
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+        color: rgb(85, 0, 0); 
+}
+
+.card{
+    background: rgba(0, 0, 0, 0);
+}
+
+::selection{
+    color: rgb(85, 0, 0)
+    
+}
+
+.form-cont{
+  margin-left: 40px;  
+}
+
+.fom-control{
+    background: rgb(88, 22, 22);
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+#nav-item-list{
+margin-top: 3px;
+}
+
+.bi:hover{
+    color: green;
+}
+
+/* 
+Video Slider
+*/
+
+.video-slider-edit{
+    width: 800px;
+    margin-left: 20%;
+}
+
+#img-list{
+   display: inline;
+   margin-left: 155px;
+
+}
+
+#img-thumb{
+    width: 200px;
+    
+}
+#img-thumb:hover{
+    transition: 1.5s;
+    cursor: pointer;
+    width: 210px;
+}
+
+#img-thumb:active{
+    width: 210px;
+}
+
+#profile-pic{
+    border-radius: 2px solid white;;
+    width: 200px;
+    transform: rotate(270deg);
+    border-radius: 50px;
+}
+#profile-pic-2{
+    margin-left: -10px;
+    border-radius: 2px solid white;;
+    width: 200px;
+    border-radius: 50%;
+}
+#about-text{
+    color: white;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.about-container{
+    margin-left: 0px;
+}
+
+#about-info{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: -10px;
+}
+
+#social-icon{
+    margin-left: 71px;
+    display: inline-flex;
+    margin-top: -10px;
+}
+
+#social-icon li{
+    width: 20px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+#second-about{
+    margin-top: 100px;
+}
+
+#social-icon-list a:hover{
+color: green;
+}
